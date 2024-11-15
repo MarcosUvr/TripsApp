@@ -1,0 +1,84 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #3f51b5;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  color: #3f51b5;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.mat-header-cell, .mat-cell {
+  font-size: 1rem;
+}
+
+.mat-header-cell {
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #3f51b5;
+}
+
+.mat-cell {
+  padding: 8px;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 11px;
+  justify-content: center;
+}
+
+.form-card {
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.form-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+button[mat-raised-button], button[mat-stroked-button] {
+  transition: transform 0.3s ease;
+}
+
+button[mat-raised-button]:hover, button[mat-stroked-button]:hover {
+  transform: scale(1.05);
+}
